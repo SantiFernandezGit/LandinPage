@@ -1,0 +1,120 @@
+body {
+	font-family: Overpass;
+	background-color: #8F3E3AD6;
+	font size: 20px;
+    font display: swap;
+    font font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.container ul{
+	padding: 43px;
+	width: 100%
+}
+.container li{
+	display: inline-block;
+}
+.container a{
+	outline: none;
+	text-decoration-color: none;
+	border-radius: 6px;
+	display: inline-block;
+	width: 19.5%
+	margin right: 2.08%;
+	text-align: center;
+	line-height: 5;
+	color: orange;
+}
+
+.container li:last-child a {
+  margin-right: 23;
+}
+
+.container a:link, a:visited, a:focus {
+  text-decoration: none;
+  background: grey;
+}
+
+.container a:hover {
+  background: #0947F078;
+}
+
+.container a:active {
+  background:#3A8F72 ;
+  color: white;
+}
+
+.banner a{
+     color: white;
+	 font-family: 'Chela One', cursive;
+	 text-align: center;
+	 text-decoration: none;
+     padding: 10px;
+     font-weight: 100;
+     font-size: 20px;
+     background-color: #1883ba;
+     border-radius: 6px;
+     border: 2px solid #0016b0;
+     height:20px; 
+     width:100px; 
+     margin: -20px -50px; 
+     position:relative;
+     top:-89px; 
+     left:653px;
+}
+
+.banner a:hover{
+	color: white;
+    background-color: #F05709D9;
+}
+.banner img {
+
+   background-image: url(C:\Users\Hugo\Desktop\Facultad\LANDING PAGE\La-Canada-cordoba-capital-1170x550.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+   text-align: center;
+ }
+ 
+.banner h1 {
+	
+	color: white;
+    font-size: 50px;
+    font-family: 'Pattaya', sans-serif; 
+    background-position: right;
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    
+}
+.banner h2 {
+    border: 3px solid white;
+    color: white;
+	font-family: 'Farro', sans-serif;
+	position: relative;
+	transform: translate(-0%, -168%);
+	background-position: center;
+	border-radius: 6px;
+	font-size: 50px;
+	text-align: center;
+	padding: 20px;
+	margin: 29px;
+}
+.banner p {
+    color: white;
+	font-family: 'Comfortaa', cursive;
+	font-size: 28px;
+	position: relative;
+	text-align: center;
+	top: -134px;
+	left: 0px;
+}
+
+.footer p {
+	color: white;
+	padding: 10px 0px;
+}
+
+
+
